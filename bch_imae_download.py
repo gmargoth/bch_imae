@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-def login_to_website(username, password, save_to):
+def login_to_SISEE(username, password, save_to):
     options = webdriver.ChromeOptions()
     # options.add_argument("--headless")
     options.add_experimental_option("prefs", {"download.default_directory": save_to})
