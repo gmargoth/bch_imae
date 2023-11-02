@@ -1,6 +1,6 @@
 # bch_imae
 
-Este codigo descarga automaticante la series del IMAE de Honduras.
+Este codigo descarga automatizada del IMAE de Honduras por subcategoría o serie global.
 
 ```python
 username = 'YOUR_USERNAME'
