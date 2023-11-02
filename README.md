@@ -1,6 +1,5 @@
 # bch_imae
-
-Este codigo descarga automatizada del IMAE de Honduras por subcategoría o serie global.
+Descarga automatizada del IMAE de Honduras por subcategoría o serie global a traves del portal: Sistema del IMAE (SISEE). https://sisee.bch.hn/IMAE/
 
 ```python
 username = 'YOUR_USERNAME'
