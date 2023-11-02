@@ -6,7 +6,7 @@ import time
 
 def login_SISEE(username, password, save_to):
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_experimental_option("prefs", {"download.default_directory": save_to})
     driver = webdriver.Chrome(options=options)
     driver.get('https://sisee.bch.hn/IMAE/Login.aspx')
