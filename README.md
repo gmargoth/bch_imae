@@ -3,7 +3,7 @@ Descarga automatizada del IMAE de Honduras por subcategoría o serie global a tr
 
 ```python
 # Usage example
-session = descargar_IMAE('C:\\Users\\gl700234\\Downloads')
+session = descargar_IMAE('C:\\USERS\\PATH\\DIR')
 session.login('gabriela123', 'gabriela123')
 session.descargar_IMAE_query(global_only=False)
 data = session.view_download(delete_file=False)
